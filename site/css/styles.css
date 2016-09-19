@@ -1,14 +1,30 @@
   body {
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
-      color: #f5f6f7;
+      /*color: #f5f6f7;*/
   }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
+  p {
+    font-size: 16px;
+  }
+
   .bg-1 {
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
+      background-image:url("../images/ep.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width:100%;
+      height: 900px;
+      color: #ffffff;*/
   }
+
+  .bg-1 .naam {
+  color:#90EE90;
+  font-size: 60px;
+  }
+
+  .bg-1 .beroep {
+  color:#ffffff;
+  font-size:40px;
+}
   .bg-2 {
       background-color: #474e5d; /* Dark Blue */
       color: #ffffff;
@@ -17,23 +33,67 @@
       background-color: #ffffff; /* White */
       color: #555555;
   }
+
+  .bg-3 p {
+    margin-bottom: 40px;
+  }
   .bg-4 {
-      background-color: #2f2f2f; /* Black Gray */
+      background-color: #474e5d; /* Black Gray */
       color: #fff;
   }
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
   }
+  .bg-3 img {
+    border: 1px solid black;
+  }
+ .marginBottom{
+  margin-bottom:30px;
+ }
+
+  .margin {
+    margin-bottom: 50px;
+  }
+      a {
+    color:#90EE90;
+  }
+  a:hover {
+    color:#000000;
+  }
+  
+ .naarBoven2 a{
+    color:#474e5d;
+  }
   .navbar {
+      background-color: #474e5d;
       padding-top: 15px;
       padding-bottom: 15px;
       border: 0;
       border-radius: 0;
       margin-bottom: 0;
-      font-size: 12px;
+      font-size: 14px;
       letter-spacing: 5px;
   }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
+  .navbar-default .navbar-nav li a {
+    color:#ffffff;
+
+ }
+  .navbar-default .navbar-nav  li a:hover {
+      color: #90EE90;
   }
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#dealer {
+  background-image: url("images/dealerBrochure2-lg.jpg")
+}
+#pinkster {
+  background-image: url("images/exclPinkster-lg.jpg")
+}
+#havelaar {
+  background-image: url("images/maxHavelaar-lg.jpg")
+
+}
+}
