@@ -4,7 +4,7 @@
       /*color: #f5f6f7;*/
   }
   p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .bg-1 {
@@ -13,7 +13,7 @@
       background-size: cover;
       width:100%;
       height: 900px;
-      color: #ffffff;*/
+      color: #ffffff;
   }
 
   .bg-1 .naam {
@@ -25,12 +25,16 @@
   color:#ffffff;
   font-size:40px;
 }
+
+h3.kop {
+  font-size: 40px;
+}
   .bg-2 {
-      background-color: #474e5d; /* Dark Blue */
+      background-color: #474e5d;
       color: #ffffff;
   }
   .bg-3 {
-      background-color: #ffffff; /* White */
+      background-color: #ffffff;
       color: #555555;
   }
 
@@ -38,7 +42,7 @@
     margin-bottom: 40px;
   }
   .bg-4 {
-      background-color: #474e5d; /* Black Gray */
+      background-color: #474e5d;
       color: #fff;
   }
   .container-fluid {
@@ -64,6 +68,14 @@
   
  .naarBoven2 a{
     color:#474e5d;
+  }
+
+  .navbar-default a.navbar-brand{
+    color:#90EE90;
+  }
+
+  .navbar-default a.navbar-brand:hover{
+    color:#ffffff;
   }
   .navbar {
       background-color: #474e5d;
