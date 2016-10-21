@@ -101,11 +101,11 @@ h3.kop {
 #dealer {
   background-image: url("images/dealerBrochure2-lg.jpg")
 }
+#oogmerk {
+  background-image: url("images/oogMerk-lg.jpg")
+}
 #pinkster {
   background-image: url("images/exclPinkster-lg.jpg")
 }
-#havelaar {
-  background-image: url("images/maxHavelaar-lg.jpg")
 
-}
 }
